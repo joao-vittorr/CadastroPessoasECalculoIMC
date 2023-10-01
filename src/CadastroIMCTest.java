@@ -83,4 +83,5 @@ public class CadastroIMCTest {
 
         assertEquals(2, pessoas.size());
     }
+
 }
