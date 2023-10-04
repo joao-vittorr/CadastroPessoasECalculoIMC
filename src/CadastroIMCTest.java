@@ -1,19 +1,10 @@
 import static org.junit.Assert.*;
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.InputStream;
-import java.io.PrintStream;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 
 public class CadastroIMCTest {
-    private ByteArrayOutputStream outContent;
-    private PrintStream originalOut;
-    private InputStream originalIn;
     private ArrayList<Object> pessoas;
 
     @Test
