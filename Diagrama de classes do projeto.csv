@@ -1,0 +1,35 @@
+Id,Nome,Biblioteca de formas,ID da p´ágina,Contido por,Grupo,Origem da linha,Destino da linha,Seta de origem,Seta de destino,Status,Área de texto 1,Área de texto 2,Área de texto 3,Comentários
+1,Documento,,,,,,,,,Rascunho,Diagrama de classes do projeto,,,
+2,Página,,,,,,,,,,Página 1,,,
+3,Classe,UML,2,,,,,,,,CadastroIMC,"​-nomeUsuario: String
+-senha: String",​+main:void,
+4,Classe,UML,2,,,,,,,,Pessoa,"​-nome: String
+-email: String
+-telefone: String
+-idade: int
+-peso: double
+-altura: double
+-imc: double
+-classificacaoIMC: String
+- pessoa: List<Pessoas>","​+ Pessoa(String, String, String, int, double, double): void
++ adicionarPessoa(Pessoa): void
++ getPessoasCadastradas(): List<Pessoa>
++ limparListaPessoas(): void
++ getNome(): String
++ setNome(String): void
++ getEmail(): String
++ setEmail(String): void
++ getTelefone(): String
++ setTelefone(String): void
++ getIdade(): int
++ setIdade(int): void
++ getPeso(): double
++ setPeso(double): void
++ getAltura(): double
++ setAltura(double): void
++ getImc(): double
++ getClassificacaoIMC(): String
++ toString(): String",
+5,Classe,UML,2,,,,,,,,CalculadoraIMC,,"​+ calcularIMC(double, double): double
++ classificarIMC(double): String",
+6,Linha,,2,,,3,4,None,Arrow,,,,,
