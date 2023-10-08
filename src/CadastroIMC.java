@@ -33,7 +33,7 @@ public class CadastroIMC {
                 switch (escolha) {
                     case 1:
                         // Cadastro de Pessoa
-                        System.out.print("Nome (obrigatório): ");
+                        System.out.print("\nNome (obrigatório): ");
                         String nome = scanner.nextLine(); // Consumir a quebra de linha pendente
                         nome = scanner.nextLine();
 
